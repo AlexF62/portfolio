@@ -23,5 +23,6 @@ body {
     &:hover {
       color: ${(props) => props.theme.colors.secondary};
     }
+    text-decoration: none;
   }
 `;
