@@ -20,9 +20,11 @@ body {
 
   a {
     color: ${(props) => props.theme.colors.primary};
-    &:hover {
-      color: ${(props) => props.theme.colors.secondary};
-    }
+  
     text-decoration: none;
+  }
+
+  ul,li {
+    list-style: none;
   }
 `;

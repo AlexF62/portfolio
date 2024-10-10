@@ -20,7 +20,7 @@ const Underline = styled.div`
     width: 40px;
     height: 2px;
     background-color: ${(props) => props.theme.colors.secondary};
-    transition: all 1s ease;
+    transition: left 1s ease;
 `;
 
 const Menu: React.FC = () => {
