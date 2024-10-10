@@ -59,7 +59,8 @@ const SocialIcons = styled.div`
     display: flex;
     gap: 30px;
     margin-top: 120px;
-    margin-right: 40px;
+    margin-right: 70px;
+
     width: 100%;
 `;
 
@@ -84,7 +85,7 @@ const Main = () => {
                 gap='40px'
                 flexDirection='column'
             >
-                <div>
+                <article>
                     <h2>Hello, I’m</h2>
                     <span>Lucas Alves</span>
                     <h1>Graphic Designer & Ceo of Graphic Type</h1>
@@ -105,7 +106,7 @@ const Main = () => {
                             <FaYoutube size={20} />
                         </IconLink>
                     </SocialIcons>
-                </div>
+                </article>
             </Container>
         </StyledMain>
     );

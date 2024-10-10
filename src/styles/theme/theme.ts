@@ -7,7 +7,8 @@ export const theme:DefaultTheme= {
       secondary: '#FBA820',  
       text: '#252525',          
       background: '#f5f5f5',
-      bgImage: photo  
+      titleColor: '#252525',
+      bgImage: photo,
     },
 
     
