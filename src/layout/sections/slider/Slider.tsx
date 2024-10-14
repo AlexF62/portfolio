@@ -113,7 +113,6 @@ const items = [
     <SlideContent key='1' />,
     <SlideContent key='2' />,
     <SlideContent key='2' />,
-    <SlideContent key='2' />,
 ];
 
 export const Slider = () => (

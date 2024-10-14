@@ -15,8 +15,8 @@ const StyledMenu = styled.nav`
 
 const Underline = styled.div`
     position: absolute;
-    bottom: -3px;
-    left: 0;
+
+    left: 33px;
     width: 40px;
     height: 2px;
     background-color: ${(props) => props.theme.colors.secondary};
