@@ -11,6 +11,7 @@ const BrandStyled = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 140px;
 `;
 
 const BrandContainer = styled.div`

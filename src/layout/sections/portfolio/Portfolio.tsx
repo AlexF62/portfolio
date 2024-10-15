@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import styled from 'styled-components';
 import { portfolioItems } from '../../../utils/portfolio';
@@ -77,6 +78,20 @@ const PortfolioButton = styled.a`
     }
 `;
 
+const PortfolioWrapperImage = styled.div`
+    position: relative;
+    &:hover::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s ease;
+    }
+`;
+
 const Portfolio = () => {
     return (
         <StyledPortfolio>
@@ -92,7 +107,9 @@ const Portfolio = () => {
                 <NavPortfolioWrapper>
                     {portfolioItems.map((item) => (
                         <a key={item.id} href='#'>
-                            <img src={item.images} alt='' />
+                            <PortfolioWrapperImage>
+                                <img src={item.images} alt='' />
+                            </PortfolioWrapperImage>
                         </a>
                     ))}
                 </NavPortfolioWrapper>
